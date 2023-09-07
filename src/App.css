@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-padding-top: 0rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 1.6rem;
+    background-color: #9CA3AF;
+  
+}
+
+p {
+    font-size: 2rem;
+    color: black;
+    line-height: 1.5;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    margin: 0 0 5rem 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+
+
+h3 {
+    font-size: 3rem;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+}
