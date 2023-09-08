@@ -9,6 +9,7 @@ export default {
       colors:{
         primerColor: "#4A1D96",
         segundoColor: "#9CA3AF"
+        
       }
     },
   },

@@ -1,16 +1,17 @@
+import {react} from 'react'
 
 export const BannerMedio = () => {
   return (
-    <section className="BannerMedio
+    <section className="BannerMedios
                         huevo
                         contenedor-flex-c
                         md:contenedor-flex-col
                         h-full
-                        bg-primerColor
+                        bg-banner
                         card-ofi-bg
                         flex-wrap
                         t-0
-                        mb-32
+                        my-32
                         py-12
                         "
     >
@@ -46,17 +47,17 @@ export const BannerMedio = () => {
             </p>
         </div>
             
-        <div className="card-ofi-molde 
-                      bg-white md:w-[50%] 
-                        h-full p-8"
+        <div className="card-btn-reverse
+                      bg-white md:w-[30%] 
+                        h-full p-16
+                        text-center"
         >
         <button type="button" 
                 className="
                           
-                          text-[2.5rem]
+                          text-[1.6rem]
                           uppercase
                           text-primerColor
-                          inline-block
                           p-4
                           font-bold
                           "

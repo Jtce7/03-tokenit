@@ -1,5 +1,6 @@
-import { GiArchiveRegister, GiBookmarklet, GiReceiveMoney } from "react-icons/gi"
-import { LuHelpingHand } from "react-icons/lu"
+import {react} from 'react'
+import { GiArchiveRegister, GiBookmarklet, GiReceiveMoney } from "react-icons/gi";
+import { LuHelpingHand } from "react-icons/lu";
 
 
 export const PrimerosPasos = () => {
