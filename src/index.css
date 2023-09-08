@@ -21,14 +21,40 @@
         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     }
 
-    .card-nobg {
-        width: 100%;
-        max-width: 100%;
-        height: 50rem;
-        max-height: 50rem;
+    .card-ofi-molde {
         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     }
 
+    .card-ofi-l {
+        background-size: cover;
+        border-color: #4A1D96;
+        border-left-width: 0.5px;
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+
+    .card-ofi-b {
+        transform: translateY(60rem);
+        background-size: cover;
+        border-color: #4A1D96;
+        border-bottom-width: 0.5px;
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+
+    .card-ofi-r {
+        transform: translateY(30rem);
+        background-size: cover;
+        border-color: #4A1D96;
+        border-right-width: 0.5px;
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+
+    .card-ofi-t {
+        transform: translateY(30rem);
+        background-size: cover;
+        border-color: #4A1D96;
+        border-top-width: 0.5px;
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
 
     .card-reverse {
         width: 100%;
@@ -36,9 +62,7 @@
         height: 45rem;
         max-height: 45rem;
         border-radius: 70% 30% 30% 70% / 30% 30% 70% 70%;
-    
     }
-
 
     .card-btn {
         display: block;
@@ -52,7 +76,6 @@
         height: 20%;
         max-height: 100%;
         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-    
     }
 
     .card-btn-reverse {
@@ -89,17 +112,57 @@
     }
 
     .contenedor {
-        width: 80%;
-        max-width: 100%;
-        margin: 1rem auto;
+        width: 95%;
+        max-width: 120rem;
+        margin: 0 auto;
     }
+
+    .contenedor-flex-col {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+    .contenedor-flex {
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .contenedor-flex-c {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-flex-c-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
     .nocontenedor {
         width: 100%;
     }
 
-    .icons {
-       font-size: 8rem;
-       font-weight: lighter;
+    .iconos {
+       display:flex;
+       justify-content: center;
+       font-size: 10rem;
+       width: 100%;
+       height: 100%;
+       padding: 0;
+       margin: 0;
+       color: #4A1D96;
+       
     }
     
     .flex-justify {
@@ -109,5 +172,7 @@
         align-items: center;
         gap: 4rem;
     }
+
+
     
 }

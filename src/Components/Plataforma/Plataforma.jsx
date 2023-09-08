@@ -5,9 +5,9 @@ import {HiDocumentReport} from "react-icons/hi";
 
 export const Plataforma = () => {
   return (
-    <section className="Sección-Invertir md:nocontenedor md:grid-flow-row huevo my-4 py-4">
+    <section className="Sección-Invertir huevo">
       
-      <div className="nocontenedor md:contenedor flex flex-col flex-wrap gap-8 justify-center 
+      <div className="contenedor flex flex-col flex-wrap gap-8 justify-center 
         items-center py-4">
         <p className="text-white text-[2rem] text-center font-light my-32">
           Olvídate de la burocracia, largos papeleos gestiones bancarias, <br/> <br/><span 
