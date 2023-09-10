@@ -37,7 +37,7 @@ export const Plataforma = () => {
                       md:contenedor-60 
                       "
       >
-        <img className="card-style" src="https://github.com/Jtce7/03-tokenit/blob/master/src/assets/plataformaimg.jpg" alt="" />
+        <img className="card-style" src="https://github.com/Jtce7/03-tokenit/master/src/assets/plataformaimg.jpg" alt="" />
 
           <article className="primerArticle
                               contenedor-flex-c
