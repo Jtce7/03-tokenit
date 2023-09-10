@@ -223,6 +223,27 @@
        color: #4A1D96;
        
     }
+
+    .bg-sNosotros {
+        background: rgb(156,163,175);
+        background: radial-gradient(circle, rgba(156,163,175,0.6362920168067228) 0%, rgba(74,29,150,0.19931722689075626) 100%);
+    }
+
+    .titulo {
+        color: #4A1D96;
+        text-align: center;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+
+    .tituloBorder {
+        --tw-border-opacity: 1;
+        border-color: rgb(74 29 150 / var(--tw-border-opacity));
+        border-bottom-width: 4px;
+        
+    }
     
 
 

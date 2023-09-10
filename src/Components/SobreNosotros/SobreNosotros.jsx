@@ -4,29 +4,29 @@ export const SobreNosotros = () => {
     <section className="">
 
         <div className="mainSobreNosotros 
-                      
-                        h-full mt-32 p-8"
+                        
+                        h-full mt-32 p-8
+                        "
         >
 
-            <h2 className=" text-center
-                            md:text-end
-                            text-primerColor 
-                            text-[2.2rem] 
-                            font-bold
-                            my-8"
+            <h2 className=" md:text-end
+                            titulo
+                            tituloBorder"
                 >
                         Token IT
             </h2>
 
-            <hr className="border-primerColor"/>
 
-            <article className="contenido
-                                md:border-2 border-white-50/50
+            <article className="contenido bg-sNosotros
+                                contenedor
                                 shadow-sm shadow-primerColor/10
-                                md:card-style-rev
+                                md:card-style
+                                card-style-rev
+                                border-2 border-white-50/50
                                 my-24
                                 md:contenedor-flex
-                                p-16
+                                md:p-16
+                                p-8
                                 text-center
                                 md:text-start"
             >
@@ -54,7 +54,7 @@ export const SobreNosotros = () => {
                 <div className="ImagenArticle 
                                 mt-16
                                 basis-[150%]
-                                card-ofi-molde 
+                                card-ofi-molde-rev
                                 overflow-hidden
                                 
                                 bg-primerColor
@@ -74,7 +74,8 @@ export const SobreNosotros = () => {
             </article>
 
             <div className="bannerSobreNosotros
-                         
+                            contenedor
+
                             flex-wrap
                             md:contenedor-flex-c
                             mt-[8rem]
@@ -84,10 +85,11 @@ export const SobreNosotros = () => {
             >
 
                 <div className="banner-1
-                                contenedor
+                                
                                 md:contenedor-flex-60-c
-                                md:card-style-rev
-                                md:border-2 border-white-50/50
+                                card-style-rev
+                                bg-sNosotros
+                                border-2 border-white-50/50
                                 shadow-sm shadow-primerColor/10
                                 my-8
                                 basis-[50%]
@@ -119,10 +121,11 @@ export const SobreNosotros = () => {
                 </div>
 
                 <div className="banner-2
-                                contenedor
+                              
                                 md:contenedor-flex-60-c
-                                md:card-style
-                                md:border-2 border-white-50/50
+                                card-style
+                                bg-sNosotros
+                                border-2 border-white-50/50
                                 shadow-sm shadow-primerColor/10 
                                 my-8
                                 md:basis-[30%]
@@ -155,10 +158,11 @@ export const SobreNosotros = () => {
                 </div>
 
                 <div className="banner-3
-                                contenedor
+                               
                                 md:contenedor-flex-60-c
-                                md:card-style-rev
-                                md:border-2 border-white-50/50
+                                card-style-rev
+                                bg-sNosotros
+                                border-2 border-white-50/50
                                 shadow-sm shadow-primerColor/10
                                 
                                 my-8
@@ -193,10 +197,11 @@ export const SobreNosotros = () => {
                 </div>
 
                 <div className="banner-4
-                                contenedor
+                                
                                 md:contenedor-flex-60-c
-                                md:card-style
-                                md:border-2 border-white-50/50
+                                card-style
+                                border-2 border-white-50/50
+                                bg-sNosotros
                                 shadow-sm shadow-primerColor/10
                                 my-8
                                 md:basis-[60%]

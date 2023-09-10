@@ -25,10 +25,10 @@ function App() {
       <BannerMedio />
 
       <SobreNosotros />
-
-      <ProyectosServicios />
       
       <Plataforma />
+
+      <ProyectosServicios />
 
       <Footer />
     </>

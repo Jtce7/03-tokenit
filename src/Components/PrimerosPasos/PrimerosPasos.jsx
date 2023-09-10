@@ -13,13 +13,12 @@ export const PrimerosPasos = () => {
     >
 
         <div className="titulo-section
-                      border-primerColor 
-                        border-b-8"
+                        "
         >
 
-            <h2 className="text-primerColor
-                        text-center md:text-right text-
-                        [2.5rem] font-bold uppercase mb-8"
+            <h2 className="md:text-right
+                            titulo
+                            tituloBorder"
             >
                 Primeros Pasos
             </h2>

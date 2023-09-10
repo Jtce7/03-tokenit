@@ -8,15 +8,17 @@ export const Plataforma = () => {
   return (
     <section className="Plataforma 
                         huevo
+                        py-8
                         mt-36
                         mb-64
-                        p-8"
+                        "
     >
-      <p className="
+      <h2 className="
                     text-white text-[2rem]
                       text-center 
                       font-light 
-                      my-32"
+                      my-32
+                      p-8"
         >
             Olvídate de la burocracia, largos papeleos gestiones bancarias, 
             <br/>
@@ -27,13 +29,15 @@ export const Plataforma = () => {
               !invertir en propiedades 
               nunca fue tan fácil!
             </span>
-        </p>
+        </h2>
 
       <div className="mainPlataforma
+                      
                       contenedor           
                       md:contenedor-60 
                       "
       >
+        <img className="card-style" src="../src/assets/plataformaimg.jpg" alt="" />
 
           <article className="primerArticle
                               contenedor-flex-c

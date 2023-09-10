@@ -14,7 +14,7 @@ export const Header = () => {
             uppercase p-1
             '
         >
-            <h3 className="titulo">
+            <h3 className="tituloEn">
                 ¿Quieres Colaborar con tus proyectos?
             </h3>
 
