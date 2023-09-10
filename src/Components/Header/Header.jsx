@@ -3,7 +3,7 @@ import {react} from 'react'
 export const Header = () => {
   return (
 
-    <header className='Header bg-primerColor '>
+    <header className='Header bg-primerColor w-full h-full'>
 
         <div className='Anuncios 
             text-[1.1rem] 
@@ -26,8 +26,7 @@ export const Header = () => {
 
         <div className='MainNav contenedor md:contenedor-flex
                         text-center 
-                      
-                      text-white p-4'
+                        text-white p-4'
         >
 
             <div className='Logo font-bold 
@@ -44,12 +43,12 @@ export const Header = () => {
                                 block 
                                 md:contenedor-flex 
                                 m-4
-                                text-[2rem]
+                                text-[1.8rem]
                                 ' 
                 >
 
                     <li><a className='Home' href='#'>Home</a></li>
-                    <li><a className='Markertplace' href='#'>Markertplace</a></li>
+                    <li><a className='Markertplace' href='#'>Marketplace</a></li>
                     <li><a className='Academy' href='#'>Academy</a></li>
                     <li><a className='Invertir' href='#'>Invertir</a></li>
 
@@ -57,12 +56,12 @@ export const Header = () => {
 
                 <button type='button' 
                         className='Login uppercase
-                                   card-btn bg-white 
-                                 text-primerColor 
-                                   text-[2rem] 
+                                    card-btn-style bg-white 
+                                   text-primerColor 
+                                   text-[1.6rem] 
                                    font-bold p-6
-                                   w-[40%]
-                                   h-[full]'
+                                  
+                                   h-full'
                 >
                     Login
 

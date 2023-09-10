@@ -26,19 +26,19 @@ export const PrimerosPasos = () => {
 
         </div>
 
-        <main className="contenedor flex flex-wrap p-4">
+        <main className="contenedor flex flex-wrap">
 
             <article className="mainPrimerPaso
+                                shadow-sm shadow-primerColor/1
                                 md:card-ofi-l
                                 md:contenedor-flex-c
                                 md:basis-[50%] 
                                 p-2
                                 mt-32
-                                "
-            >
+                                ">
 
                     <div className="ContenidoPrimerPaso 
-                                max-w-full p-8
+                                max-w-full
                                 text-center
                                 "
                     >
@@ -72,7 +72,9 @@ export const PrimerosPasos = () => {
                     </div>
 
             </article>
+
             <article className="mainSegundoPaso
+                                shadow-sm shadow-primerColor/1
                                 md:card-ofi-r
                                 md:contenedor-flex-c
                                 md:basis-[50%] 
@@ -80,7 +82,7 @@ export const PrimerosPasos = () => {
                                 mt-32">
 
                     <div className="Contenido 
-                                max-w-full p-8
+                                max-w-full
                                 text-center"
                     >
                         <div className="iconos"
@@ -112,7 +114,9 @@ export const PrimerosPasos = () => {
                     </div>
 
             </article>
+
             <article className="mainTercerPaso
+                                shadow-sm shadow-primerColor/1
                                 md:card-ofi-t
                                 md:contenedor-flex-c
                                 md:basis-[50%] 
@@ -120,7 +124,7 @@ export const PrimerosPasos = () => {
                                 mt-32">
 
                     <div className="ContenidoPrimerPaso 
-                                max-w-full p-8
+                                max-w-full
                                 text-center"
                     >
                         <div className="iconos"
@@ -149,17 +153,18 @@ export const PrimerosPasos = () => {
                     </div>
 
             </article>
+
             <article className="mainCuartoPaso
+                                shadow-sm shadow-primerColor/10
                                 md:card-ofi-b
                                 md:contenedor-flex-c
                                 md:basis-[50%] 
                                 p-2
                                 mt-32
-                                "
-            >
+                                ">
 
                     <div className="ContenidoPrimerPaso 
-                                max-w-full p-8 
+                                max-w-full
                                 text-center"
                     >
                         <div className="iconos"

@@ -7,35 +7,35 @@ import { FaLinkedin } from "react-icons/fa";
 export const Hero = () => {
   return (
     <section className='Hero
-                        h-full md:h-[60rem]
+                        h-full md:h-[65rem]
+                        
                         md:contenedor-flex
-                      bg-primerColor
+                        bg-primerColor
                         p-8'
     >
       <div className="mainHeroContenido
-                   
-                    md:contenedor-flex"
+                      contenedor
+                      md:contenedor-flex-c"
       >
-            <div className='contenedor basis-[65%] text-center md:text-start p-16 flex flex-col flex-wrap justify-center items-center w-full h-full'>
+            <div className='basis-[65%] text-center md:text-start md:p-16 flex flex-col flex-wrap justify-center items-center w-full h-full'>
                   <h2 className='Titulo text-[2rem] md:text-[4rem] font-extrabold uppercase 
-                    text-white my-2 flex-shrink'>Tokenización de Activos Inmobiliarios</h2>
-                  <p className='text-[1.5rem] my-2 text-white flex-shrink'>
+                    text-white my-4 flex-shrink'>Tokenización de Activos Inmobiliarios</h2>
+                  <p className='text-[1.5rem] my-4 text-white flex-shrink'>
                     La manera más eficiente, fácil y flexible de invertir en el mercado inmboiliario</p>
             </div>
             
             <div className="contenedor
-                          bg-white 
                             overflow-hidden
-                            object-center
-                            h-full
-                            card-ofi-molde-rev
-                            p-8
+                            object-cover
+                            w-[80%]
+                            md:p-8
+                            my-4 md:my-0
                             "
             >
 
-            <img src='../src/assets/Heroimg.jpg' 
+            <img src='../src/assets/heroimagen.jpg' 
                  alt=''
-                 className=' w-full h-full'
+                 className=' card-ofi-molde-rev'
             /> 
             </div>
 
